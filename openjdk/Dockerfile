@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     libxrender-dev \
     libxt-dev \
     libxtst-dev \
+    openjfx \
     mercurial \
     python-pip \
     zip \
