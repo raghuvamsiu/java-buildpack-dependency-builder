@@ -7,6 +7,7 @@ RUN apk add --update \
     jq \
     py2-pip \
     unzip \
+    openjfx \
  && rm -rf /var/cache/apk/*
 
 RUN pip install awscli --ignore-installed six
